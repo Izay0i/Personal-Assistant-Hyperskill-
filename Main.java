@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) {
-        //Create input
+        //Create input stream
         Scanner scanner = new Scanner(System.in);
 
         //Main main = new Main();
