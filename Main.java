@@ -61,7 +61,7 @@ public class Main {
                 "3. To determine the execution time of a program.\n" +
                 "4. To interrupt the execution of a program.");
 
-        int choice = -1;
+        int choice;
         while (true) {
             choice = scanner.nextInt();
 
