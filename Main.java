@@ -62,11 +62,13 @@ public class Main {
                 "4. To interrupt the execution of a program.");
 
         int choice = -1;
-        while (choice != 2) {
+        while (true) {
             choice = scanner.nextInt();
 
             if (choice != 2)
                 System.out.println("Please, try again.");
+            else
+                break;
         }
 
         System.out.println("Congratulations, have a nice day!");
